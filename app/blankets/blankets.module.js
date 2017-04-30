@@ -1,10 +1,10 @@
 angular
-    .module('appname', [
+    .module('blankets', [
         //global dependencies
         'ui.router',
 
         //features
-        'appname.feature1',
+        'blankets.home',
     ])
     .config(appConfig);
 
