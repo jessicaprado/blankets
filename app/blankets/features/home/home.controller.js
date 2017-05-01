@@ -1,7 +1,7 @@
 angular
     .module('blankets.home')
-    .controller('home', Home);
+    .controller('HomeCtrl', HomeCtrl);
 
-function Home() {
+function HomeCtrl() {
     vm = this;
 }

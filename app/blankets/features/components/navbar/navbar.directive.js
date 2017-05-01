@@ -1,5 +1,5 @@
 angular
-	.module('blankets.component.navbar')
+	.module('blankets.components.navbar')
 	.directive('navbar', Navbar);
 
 function Navbar() {
