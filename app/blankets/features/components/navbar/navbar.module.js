@@ -1,4 +1,4 @@
 angular
-	.module('blankets.component.navbar', [
+	.module('blankets.components.navbar', [
 
 	]);
