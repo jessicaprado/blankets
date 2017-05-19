@@ -16,21 +16,28 @@
     <!-- Latest compiled JavaScript -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 
-    <link rel="stylesheet" type="text/css" href="blankets/layout/assets/style/style.css">
+    <!-- inject:css -->
+    <link rel="stylesheet" href="/app/blankets/layout/assets/style/style.css">
+    <!-- endinject -->
 </head>
     <body ng-app="blankets">
     <div class="content">
         <ui-view></ui-view>
     </div>
 
-    <script src="blankets/blankets.module.js"></script>
-
-    <script src="blankets/features/home/home.module.js"></script>
-    <script src="blankets/features/home/home.controller.js"></script>
-    <script src="blankets/features/home/home.routes.js"></script>
-    
-    <script src="blankets/features/components/navbar/navbar.module.js"></script>
-    <script src="blankets/features/components/navbar/navbar.directive.js"></script>
+    <!-- inject:js -->
+    <script src="/app/blankets/blankets.module.js"></script>
+    <script src="/app/blankets/features/components/navbar.directive.js"></script>
+    <script src="/app/blankets/features/components/navbar.module.js"></script>
+    <script src="/app/blankets/features/feature2/feature.controller.js"></script>
+    <script src="/app/blankets/features/feature2/feature.module.js"></script>
+    <script src="/app/blankets/features/feature2/feature.routes.js"></script>
+    <script src="/app/blankets/features/home/home.controller.js"></script>
+    <script src="/app/blankets/features/home/home.module.js"></script>
+    <script src="/app/blankets/features/home/home.routes.js"></script>
+    <script src="/app/blankets/features/components/navbar/navbar.directive.js"></script>
+    <script src="/app/blankets/features/components/navbar/navbar.module.js"></script>
+    <!-- endinject -->
 
 </body>
 </html>
